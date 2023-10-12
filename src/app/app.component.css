@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,800);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  width: 100vw;
+}
+
+.filter-container {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 50px 40px 100px;
+  position: fixed;
+  top: 139px;
+  left: 0;
+  background: #0584ce;
+  z-index: 1000;
+  min-width: 20%;
+  height: 100vh;
+  color: #ffff;
+}
+.filter-title {
+  width: 100%;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 1rem;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px -2px 2px -1px #36cff5;
+}
+
+.filter-item label {
+  font-family: "Lato";
+  font-size: 1rem !important ;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.filter-item input[type="date"],
+.filter-item select {
+  border: none;
+  padding: 6px 10px;
+  color: #5b5b5b;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.filter-item input:active {
+  outline: none;
+}
+.filter-item option {
+  font-size: 15px;
+}
+.filter-item option:first-child {
+  display: none;
+}
+
+.usuarios,
+app-targetas-usuarios {
+  width: 76.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 70px 0 150px 200px;
+}

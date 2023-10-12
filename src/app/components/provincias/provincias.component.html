@@ -1,0 +1,11 @@
+<div class="filter-item">
+  <label for="province">Provincia</label>
+  <select id="provincias">
+    <option class="filter-item" value="provincia" hidden>
+      Santo Domingo...
+    </option>
+    <option class="filter-item" value="" *ngFor="let provincia of provincias">
+      {{ provincia.Nacionalidad }}
+    </option>
+  </select>
+</div>
